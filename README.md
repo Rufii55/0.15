@@ -1,1 +1,5 @@
-# 0.15
+HelloApplication.java: Este archivo es probablemente la clase principal que lanza la aplicación JavaFX. En JavaFX, la clase principal debe extender de Application y sobrescribir el método start para configurar la escena inicial y mostrar la ventana principal. Este archivo configura el entorno inicial de la aplicación, incluyendo la carga del archivo FXML que define la interfaz gráfica y la visualización de la ventana.
+
+HelloController.java: Este archivo sirve como controlador en el patrón de diseño MVC (Modelo-Vista-Controlador) que es comúnmente utilizado en aplicaciones con interfaces gráficas. El controlador maneja la lógica de la interacción del usuario, respondiendo a eventos como clics de botones o entradas de datos. En JavaFX, los controladores están vinculados a los archivos FXML mediante anotaciones que conectan elementos de la interfaz con métodos en el código.
+
+hello-view.fxml: Este es un archivo de marcado que utiliza FXML, un lenguaje basado en XML para definir la estructura de la interfaz gráfica de usuario en aplicaciones JavaFX. FXML permite diseñar la interfaz visualmente, separando la apariencia de la lógica del programa, lo cual facilita la colaboración y el mantenimiento. Este archivo define los elementos de la interfaz como botones, menús, y otros widgets, y establece su disposición y estilo.
